@@ -1,0 +1,46 @@
+App-ZofCMS-Plugin-QuickNote
+
+The module is a plugin for L<App::ZofCMS> which provides means to easily
+drop-in a "quicknote" form which asks the user for his/her name, e-mail
+address and a message he or she wants to send. After checking all of the
+provided values plugin will e-mail the data which the visitor entered to
+the address which you specified.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc App::ZofCMS::Plugin::QuickNote
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-ZofCMS-Plugin-QuickNote
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/App-ZofCMS-Plugin-QuickNote
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/App-ZofCMS-Plugin-QuickNote
+
+    Search CPAN
+        http://search.cpan.org/dist/App-ZofCMS-Plugin-QuickNote
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 Zoffix Znet
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+

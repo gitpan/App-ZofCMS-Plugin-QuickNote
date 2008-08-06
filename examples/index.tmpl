@@ -1,0 +1,13 @@
+{
+    body        => \'index.tmpl',
+    quicknote   => {
+        mailer => 'testfile',
+        to     => 'example@example.com',
+        must_name => 1,
+        must_email => 1,
+        name_max => 50,
+        email_max => 50,
+        message_max => 300,
+    },
+    plugins => [ qw/QuickNote/ ],
+}
