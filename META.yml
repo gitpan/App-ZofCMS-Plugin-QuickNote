@@ -1,6 +1,6 @@
 ---
 name: App-ZofCMS-Plugin-QuickNote
-version: 0.0104
+version: 0.0105
 author:
   - 'Zoffix Znet <zoffix@cpan.org>'
 abstract: drop-in "quicknote" form to email messages from your site
@@ -16,7 +16,7 @@ build_requires:
 provides:
   App::ZofCMS::Plugin::QuickNote:
     file: lib/App/ZofCMS/Plugin/QuickNote.pm
-    version: 0.0104
+    version: 0.0105
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
