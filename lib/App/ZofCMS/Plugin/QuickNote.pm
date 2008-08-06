@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::QuickNote;
 use warnings;
 use strict;
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0104';
 use HTML::Template;
 
 sub new { return bless {}, shift }
