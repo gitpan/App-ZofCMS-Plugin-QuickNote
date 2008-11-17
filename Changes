@@ -1,5 +1,9 @@
 Revision history for App-ZofCMS-Plugin-QuickNote
 
+0.0106  August 5, 2008
+        Added on_success and on_error options
+        Added an id="" attribute to the submit button
+
 0.0105  August 5, 2008
         ditto
 
