@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::QuickNote;
 use warnings;
 use strict;
 
-our $VERSION = '0.0106';
+our $VERSION = '0.0107';
 use HTML::Template;
 
 sub new { return bless {}, shift }
@@ -47,6 +47,7 @@ sub _process_note {
     $qn_conf->{must_name}       ||= 0;
     $qn_conf->{must_email}      ||= 0;
     $qn_conf->{must_message}    ||= 1;
+    $qn_conf->{on_success}      ||= 'quicknote_success';
     $qn_conf->{success} = 'Your message has been successfuly sent'
         unless defined $qn_conf->{success};
 
@@ -393,7 +394,7 @@ C<'Your message has been successfuly sent'>.
 B<Optional>. Takes a string as a value that representes a key in C<{t}> special key. When
 specified, the plugin will set the C<on_success> key in C<{t}> special key to a true value
 when the quicknote has been sent; this can be used to display some special messages
-when quick note succeeds. B<By default> is not specified.
+when quick note succeeds. B<Defaults to:> C<quicknote_success>.
 
 =head3 C<on_error>
 
