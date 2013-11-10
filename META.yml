@@ -1,25 +1,27 @@
 ---
-name: App-ZofCMS-Plugin-QuickNote
-version: 0.0107
+abstract: "drop-in \"quicknote\" form to email messages from your site"
 author:
   - 'Zoffix Znet <zoffix@cpan.org>'
-abstract: drop-in "quicknote" form to email messages from your site
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
 build_requires:
   Test::More: 0
+configure_requires:
+  Module::Build: 0
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: App-ZofCMS-Plugin-QuickNote
+provides:
+  App::ZofCMS::Plugin::QuickNote:
+    file: lib/App/ZofCMS/Plugin/QuickNote.pm
+    version: 0.0108
 requires:
   App::ZofCMS: 0.0103
   HTML::Template: 2.9
   Mail::Send: 2.04
-configure_requires:
-  Module::Build: 0.35
-provides:
-  App::ZofCMS::Plugin::QuickNote:
-    file: lib/App/ZofCMS/Plugin/QuickNote.pm
-    version: 0.0107
-generated_by: Module::Build version 0.35
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  perl: 5.006
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.0108

@@ -1,18 +1,22 @@
 Revision history for App-ZofCMS-Plugin-QuickNote
 
-0.0107  April 24, 2010
-        Added the on_success to default to "quicknote_success"; effectively fixing an error in the docs.
+0.0108  2013-11-09
+        - Minor fixes to comply with specs and Kwalitee game
 
-0.0106  August 5, 2008
-        Added on_success and on_error options
-        Added an id="" attribute to the submit button
+0.0107  2010-04-24
+        - Added the on_success to default to "quicknote_success";
+          effectively fixing an error in the docs.
 
-0.0105  August 5, 2008
-        ditto
+0.0106  2008-08-05
+        - Added on_success and on_error options
+        - Added an id="" attribute to the submit button
 
-0.0102  August 5, 2008
-        PAUSE died on me while uploading.. had to rename to upload again :/
+0.0105  2008-08-05
+        - ditto
 
-0.0101  August 5, 2008
-        First version, released on an unsuspecting world.
+0.0102  2008-08-05
+        - PAUSE died on me while uploading.. had to rename to upload again :/
+
+0.0101  2008-08-05
+        - First version, released on an unsuspecting world.
 

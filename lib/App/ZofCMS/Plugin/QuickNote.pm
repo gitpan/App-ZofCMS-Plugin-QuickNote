@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::QuickNote;
 use warnings;
 use strict;
 
-our $VERSION = '0.0107';
+our $VERSION = '0.0108';
 use HTML::Template;
 
 sub new { return bless {}, shift }
@@ -219,6 +219,8 @@ END_FORM
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 

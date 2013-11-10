@@ -14,7 +14,9 @@ my $builder = Module::Build->new(
         'HTML::Template' => 2.9,
         'Mail::Send'     => 2.04,
         'App::ZofCMS'    => 0.0103,
+        'perl' => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'App-ZofCMS-Plugin-QuickNote-*' ],
     create_makefile_pl => 'traditional',
 );
